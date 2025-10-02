@@ -1,0 +1,14 @@
+pip list
+python -m venv venv
+set PYTHONPATH=.
+
+cd "your path" 
+python -m venv venv
+.\venv\Scripts\activate
+
+deactivate
+
+pip install -r requirements.txt
+
+now run
+python manage.py runserver
