@@ -2,7 +2,7 @@ import cohere
 import pdfplumber
 
 # Set your Cohere API key
-co = cohere.Client("fIt1YeocSlpdxAR8J5rcQlg253CHPNBjjoE2utYS")
+co = cohere.Client(" ")
 
 # Function to extract all text from the PDF
 
