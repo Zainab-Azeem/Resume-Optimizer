@@ -2,7 +2,7 @@ import cohere
 import pdfplumber
 
 # Set your Cohere API key
-co = cohere.Client("TeOtelSUJiwoyJui9dYHWf4k0qdbGsNZDPbkXRWu")
+co = cohere.Client(" ") #key here
 
 # Function to extract all text from the PDF
 def extract_text_from_pdf(pdf_path):
@@ -60,7 +60,7 @@ def process_pdf_and_generate_report(pdf_path):
     return report
 
 # Provide the correct file path to your PDF
-pdf_path = r"C:\Users\Sher Ali\Downloads\SherAli Resume.pdf"
+pdf_path = r" "//path here
 
 # Generate the report
 try:
@@ -70,3 +70,4 @@ try:
         print(report)
 except Exception as e:
     print(f"Error: {e}")
+
